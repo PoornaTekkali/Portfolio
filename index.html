@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>👩‍🎓Poorna Pallavi Tekkali</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="animated-bg"></div>
+        <div class="animated-dots"></div>
+        
+        <div class="container">
+            <nav>
+                <img src="Logo.png" class="logo" alt="Logo">
+                <div class="menu-btn">
+                    <div class="menu-btn__burger"></div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#about" data-section="education">Education</a></li>
+                    <li><a href="#about" data-section="experience">Experience</a></li>
+                    <li><a href="#about" data-section="skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://github.com/PoornaTekkali" target="_blank" class="github-link">Github</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-content">
+                <div class="header-text">
+                    <p>CS Master's | Explore. Learn. Innovate</p>
+                    <h1>Hi, I am Poorna Pallavi Tekkali 👋</h1>
+                    <div class="header-buttons">
+                        <a href="Poorna Resume.pdf" target="_blank" class="btn">Resume</a>
+                        <a href="#contact" class="btn">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                    <!-----ABOUT-------->
+    <div id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h1 class="about-heading">About Me</h1>
+                    <div class="about-me">
+                        <p>Hi, I'm Poorna Pallavi Tekkali, an MSc student in Computer Science at the University of Texas at Arlington. I'm passionate about technology 💻 and enjoy learning new things, especially in areas like data analysis 📊, web development 🌐, and cloud computing.</p>
+                        <p>I love tackling challenges 💡 and finding practical solutions to problems. With a focus on personal growth 📈, I'm always looking for opportunities to improve and apply my skills to real-world projects.</p>
+                        <p>Feel free to connect – I'm excited about collaborating and learning from others in the tech community! 🤝</p>
+                    </div>
+                </div>
+
+                <div class="tab-section">
+                    <div class="tab-container">
+                        <div class="tab">
+                            <div class="tab-link" onclick="toggleTab(this, 'education')">Education</div>
+                            <div class="tab-content" id="education">
+                                <ul>
+                                    <li><span>2023-2025</span><br>MSc in Computer Science -- University of Texas at Arlington</li>
+                                    <li><span>2017-2022</span><br>Bachelors in Computer Science -- Sanketika Institute of Technology and Management</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="tab-link" onclick="toggleTab(this, 'experience')">Experience</div>
+                            <div class="tab-content" id="experience">
+                                <ul>
+                                    <li><span>2021-2023</span><br>Investigation Specialist---Amazon Development Center</li><br>
+                                    <p class="custom-paragraph">
+                                        Conducted data-driven investigations using pattern recognition, reducing fraudulent transactions by 30% and improving customer trust.<br>
+                                        Optimized rule-based detection with SQL and data analysis, cutting security breaches by 25%.<br>
+                                        Streamlined fraud detection workflows by integrating automated checks for efficiency.
+                                    </p>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="tab-link" onclick="toggleTab(this, 'skills')">Skills</div>
+                            <div class="tab-content" id="skills">
+                                <div class="skills-container">
+                                    <div class="skills-column">
+                                        <ul>
+                                            <li><span>PROGRAMMING LANGUAGES:</span><br>Python, Java, C</li>
+                                            <li><span>WEB DEVELOPMENT:</span><br>HTML, CSS, JavaScript, PHP</li>
+                                            <li><span>VISUALIZATION TOOLS:</span><br>Tableau,PowerBi</li>
+                                        </ul>
+                                    </div>
+                                    <div class="skills-column">
+                                        <ul>
+                                            <li><span>OPERATING SYSTEM:</span><br>Linux, Windows</li>
+                                            <li><span>PLATFORMS:</span><br>Git, Visual Studio</li>
+                                            <li><span>DATABASE AND CLOUD:</span><br>SQL,MySQL</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!-----PROJECTS-------->
+
+
+    <div id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Sentiment Analysis On Customer Feedback</h3>
+                    <p>Built an NLP model (LSTM, GRU) achieving 81.5% accuracy on 20,000+ Amazon reviews, providing insights to improve customer satisfaction.</p>
+                    <a href="https://github.com/PoornaTekkali/Machine-Learning" class="read-more-btn" target="_blank">Read More</a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Detection of Cyber-attack In Networking</h3>
+                    <p>Developed a Naive Bayes-based website classifier with 92% accuracy, reducing cyber-attacks by 45%.<br> Led a team of three, refining parameters to boost accuracy to 95%.</p>
+                    <a href="https://github.com/PoornaTekkali/Detection-of-Cyber-attack-" class="read-more-btn" target="_blank">Read More</a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Smart Health Hub</h3>
+                    <p>Designed a Pharmacist Module for prescription management, automating database setup and reducing manual errors by 30%.</p>
+                    <a href="https://github.com/PoornaTekkali/Web-Data-Management" class="read-more-btn" target="_blank">Read More</a>
+                </div>
+            </div>
+            
+
+<div class="github-button-container">
+    <a id="github-more-projects-btn" href="https://github.com/PoornaTekkali?tab=repositories" target="_blank" rel="noopener noreferrer">
+        <span class="github-btn-text">See More Projects</span>
+        <span class="github-btn-icon">→</span>
+    </a>
+</div>
+
+                    <!-----CERTIFICATIONS-------->
+
+    <div id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certificate-card">
+                    <img src="GDA.jpg" alt="Certificate 1" class="certificate-image">
+                    <h3>Googgle Data Analytics</h3>
+                    <p>GOOGLE-COURSERA • FEB 2025</p>
+                </div>
+                <div class="certificate-card">
+                    <img src="Intro to Java.jpg" alt="Certificate 2" class="certificate-image">
+                    <h3>Introduction To Java</h3>
+                    <p>Coursera • May 2021</p>
+                </div>
+                <div class="certificate-card">
+                    <img src="DS Job Simualation.jpg" alt="Certificate 2" class="certificate-image">
+                    <h3>Data Science Job Simulation</h3>
+                    <p>British Arlines-Forage • Feb 2025</p>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+    <div id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-form">
+                <form id="contactForm" onsubmit="return handleSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div id="formStatus" class="form-status"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> Poorna Pallavi Tekkali. All rights reserved.</p>
+                <nav class="social-links">
+                    <a href="mailto:pallavitekkali124@gmail.com" class="btn">Email</a>
+                    <a href="https://github.com/poornatekkali?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn">GitHub</a>
+                    <a href="https://www.linkedin.com/in/poornapallavitekkali/" target="_blank" rel="noopener noreferrer" class="btn">LinkedIn</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
